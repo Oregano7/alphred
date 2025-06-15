@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": "./",
+     "paths": {
+      "@/*": ["src/*"], // Map '@/' to 'src/'
+      "@/components/*": ["src/components/*"] // Map '@/components' to 'src/components'
+    }
+  }
+}
